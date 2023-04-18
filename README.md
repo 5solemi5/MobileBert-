@@ -30,7 +30,7 @@ MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트
 ![그림2](https://user-images.githubusercontent.com/104000117/232916534-04b41e98-89d7-4401-98c7-36d431c76512.png)
 
 - 임계값(threshold)을 정의하고, 이 임계값을 기준으로 위의 데이터를 0 또는 1로 분류한 결과
-
+![그림3](https://user-images.githubusercontent.com/104000117/232919132-60083ffb-0de6-443d-9b2f-f32a8d3ad646.png)
 
 
 # 딥러닝 모델링
