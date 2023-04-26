@@ -47,7 +47,7 @@ MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트
 # 2.데이터
 ## 2.1 원시 데이터 현황
 
-(수정사향: >총건수, 라벨의 분포(평점, 긍부정, 긍부정중), 부가정보>>파이차트)
+(수정사향: >총건수, 라벨의 분포(평점, 긍부정, 긍부정중), 부가정보>>파이차트 내가 데이터 시각화하기)
 
 - 출처: https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews
 ![그림1](https://user-images.githubusercontent.com/104000117/232916528-72d8be0a-6ca6-4ce3-bc63-49e4563d659b.png)
