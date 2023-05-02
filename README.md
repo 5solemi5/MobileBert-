@@ -30,11 +30,19 @@
 # 2.데이터
 ## 2.1 원시 데이터 현황
 
-(수정사향: >총건수, 라벨의 분포(평점, 긍부정, 긍부정중), 부가정보>>파이차트 내가 데이터 시각화하기)
-
 - 출처: https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews
-![그림1](https://user-images.githubusercontent.com/104000117/232916528-72d8be0a-6ca6-4ce3-bc63-49e4563d659b.png)
-![그림2](https://user-images.githubusercontent.com/104000117/232916534-04b41e98-89d7-4401-98c7-36d431c76512.png)
+
+- 데이터 형태
+
+|\|A|B|
+|-|-|-|
+|1|Review|Rating|
+|-|-|-|
+|2|i think i actually under-rate ok computer if anything.|5|
+|-|-|-|
+|3|when i was 15 and it was maybe the fourth|5|
+|-|-|-|
+|4|atmospheric a rock anthem as the band would ever do and|4.5|
 
 ## 2.2 데이터 가공
 
@@ -54,10 +62,7 @@
 [2]https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html
 
 [이미지]
+
 https://hiphoppush.com/music-advice/how-to-get-reviewed-by-a-music-blog
+
 https://www.synchtank.com/blog/music-publishing-in-the-age-of-the-songwriter-report-part-4/
-
-
-
-(수정사항: 신문기사 인용 주의
-보고서를 통해서 작성되었을 경우, 출처작성)
