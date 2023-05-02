@@ -6,6 +6,9 @@ MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트
   
 음악 리뷰에는 보통 긍정적인 리뷰가 많지만, 일부 부정적인 리뷰도 있다. 이를 이진 분류 문제로 정의하여 MobileBERT 모델을 훈련시킨다. 
 
+![음악리뷰](https://user-images.githubusercontent.com/104000117/235768156-b61dad73-5a7e-4368-ade5-1f40af4ace7c.png)
+
+
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>
