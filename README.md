@@ -46,23 +46,21 @@
 
 - 데이터 부가 정보
 **Review**
-|**Reviews of music albums**|
-|-|
-|79922 unique values|
-|이 데이터셋은 80.2k개의 valid한 데이터가 있으며,|
-|mismatched는 없으며|
-|missing data는 26개 존재합니다.| 
-|고유한 데이터는 79.9k개이며, |
-|가장 많은 데이터는 0%로 나타납니다.|
+|**Reviews of music albums**|-|
+|-|-|
+|Valid: 유효한 데이터|80.2k개| 
+|Mismatched: 불일치 데이터|0개|
+|Missing: 결측치|26개|
+|Unique values: 고유한 값|79.9k개|
+
 
 **Rating**
-|**Ratings of music albums 
-(0-5)**|-|
+|**Ratings of music albums (0-5)**|-|
 |-|-|
-|Valid: 유효한 데이터 수 |97% (78,200 개)|
-|Mismatched: 일치하지 않는 데이터 수 |0% (0 개)|
-|Missing: 결측치 수 |3% (2,084 개)|
-|Mean: 평균 값 |4.25|
+|Valid: 유효한 데이터 수|97% (78,200 개)|
+|Mismatched: 일치하지 않는 데이터 수|0% (0 개)|
+|Missing: 결측치 수|3% (2,084 개)|
+|Mean: 평균 값|4.25|
 |Std. Deviation: 표준 편차|0.87|
 
 |Quantiles: 데이터 값의 분위수|-|
