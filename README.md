@@ -2,6 +2,8 @@
   
 # 📀음악 리뷰 감성분석📀 
 
+![그림1](https://user-images.githubusercontent.com/104000117/235760326-32c8f78a-d797-483b-b491-e68448bfa7d1.png)
+
 MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트
   
 음악 리뷰에는 보통 긍정적인 리뷰가 많지만, 일부 부정적인 리뷰도 있다. 이를 이진 분류 문제로 정의하여 MobileBERT 모델을 훈련시킨다. 
