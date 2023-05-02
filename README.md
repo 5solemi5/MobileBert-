@@ -37,9 +37,21 @@
 |-|A|B|
 |-|-|-|
 |1|Review|Rating|
-|2|i think i actually under-rate ok computer if anything.|5|
-|3|when i was 15 and it was maybe the fourth|5|
-|4|atmospheric a rock anthem as the band would ever do and|4.5|
+|2|i think i actually under-rate ok computer...|5|
+|3|when i was 15 and it was maybe the fourth...|5|
+|4|atmospheric a rock anthem as the band would...|4.5|
+
+-데이터 부가 정보
+
+**Review** :Reviews of music albums
+
+79922 unique values
+이 데이터셋은 80.2k개의 valid한 데이터가 있으며, mismatched는 없으며 missing data는 26개 존재합니다. 고유한 데이터는 79.9k개이며, 가장 많은 데이터는 0%로 나타납니다.
+
+**Rating** :Ratings of music albums (0-5)
+
+이 데이터셋의 전체 데이터 수는 80,000개입니다. 이 중에서 유효한 데이터는 78,200개로, 전체의 약 97%를 차지합니다. 또한 일치하지 않는 데이터는 없으며, 결측치는 2,084개로 전체의 약 3%를 차지합니다. 평균 평점은 4.25이며, 표준 편차는 0.87입니다. 50%의 데이터는 4.5 이상의 평점을 받았으며, 최소 평점은 4, 최대 평점은 5입니다.
+
 
 ## 2.2 데이터 가공
 
