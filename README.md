@@ -46,7 +46,7 @@
 
 - 데이터 부가 정보
 
-**<Review>**
+**#Review**
 |**Reviews of music albums**|-|
 |-|-|
 |Valid: 유효한 데이터|80.2k개| 
@@ -55,7 +55,7 @@
 |Unique values: 고유한 값|79.9k개|
 
 
-**<Rating>**
+**#Rating**
 
 |**Ratings of music albums (0-5)**|-|
 |-|-|
