@@ -57,8 +57,6 @@
 
 **#Rating**
 
-![막대](https://user-images.githubusercontent.com/104000117/235798808-73883e3e-f9ea-455a-9ed0-cc3dc3379be1.png)
-
 |**Ratings of music albums (0-5)**|-|
 |-|-|
 |Valid: 유효한 데이터 수|97% (78,200 개)|
@@ -73,13 +71,18 @@
 |75%|5|
 |Max|5|
 
+![막대](https://user-images.githubusercontent.com/104000117/235798808-73883e3e-f9ea-455a-9ed0-cc3dc3379be1.png)
+
 
 ## 2.2 데이터 가공
 
 (수정사향: 임계값 구한 방법 설명.....
 이진분류 (출력)/파이차트, 제거 데이터, 입력 데이터에 대한 설명/문장 데이터=>길이 분포 len(str)/도수분표, 최종 데이터 (f_data, ,csv, 엑셀, 제이쓴..), raw_data.csv 가공 source.py 이력들 기록, <데이터 접근> )
 
-- 임계값(threshold)을 정의하고, 이 임계값을 기준으로 위의 데이터를 0 또는 1로 분류한 결과
+- 임계값(threshold)
+
+
+- 임계값을 기준으로 위의 데이터를 0 또는 1로 분류한 결과
 ![그림3](https://user-images.githubusercontent.com/104000117/232919132-60083ffb-0de6-443d-9b2f-f32a8d3ad646.png)
 
 
