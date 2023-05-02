@@ -76,15 +76,18 @@
 
 ## 2.2 데이터 가공
 
-(수정사향: 임계값 구한 방법 설명.....
-이진분류 (출력)/파이차트, 제거 데이터, 입력 데이터에 대한 설명/문장 데이터=>길이 분포 len(str)/도수분표, 최종 데이터 (f_data, ,csv, 엑셀, 제이쓴..), raw_data.csv 가공 source.py 이력들 기록, <데이터 접근> )
-
 - 임계값(threshold)
+임계값은 모델의 성능과 관련이 있으며, 일반적으로 이진 분류를 할 때는 ROC curve와 F1-score 등을 활용하여 임계값을 결정할 수 있다.
 
+**ROC curve** True Positive Rate(TPR)와 False Positive Rate(FPR) 사이의 관계를 나타내는 그래프이다. 이 그래프에서 임계값이 변할 때, TPR과 FPR이 어떻게 변화하는지를 확인할 수 있다.
+
+**F1-score** precision과 recall의 조화 평균으로 계산된다. precision은 모델이 분류한 positive 중에서 실제 positive인 데이터의 비율을 나타내고, recall은 실제 positive 중에서 모델이 분류한 positive인 데이터의 비율을 나타낸다. 
 
 - 임계값을 기준으로 위의 데이터를 0 또는 1로 분류한 결과
 ![그림3](https://user-images.githubusercontent.com/104000117/232919132-60083ffb-0de6-443d-9b2f-f32a8d3ad646.png)
 
+(추가/수정사항: 임계값 구한 방법 설명.....
+이진분류 (출력)/파이차트, 제거 데이터, 입력 데이터에 대한 설명/문장 데이터=>길이 분포 len(str)/도수분표, 최종 데이터 (f_data, ,csv, 엑셀, 제이쓴..), raw_data.csv 가공 source.py 이력들 기록, <데이터 접근> )
 
 # 딥러닝 모델링
 
