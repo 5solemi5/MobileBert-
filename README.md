@@ -56,13 +56,21 @@
 |가장 많은 데이터는 0%로 나타납니다.|
 
 **Rating**
-|**Ratings of music albums (0-5)**|
-|Valid: 유효한 데이터 수 (78,200 개)|
-|Mismatched: 일치하지 않는 데이터 수 (0 개)|
-|Missing: 결측치 수 (2,084 개)|
-|Mean: 평균 값 (4.25)|
-|Std. Deviation: 표준 편차 (0.87)|
-|Quantiles: 데이터 값의 분위수 |0.5|25%| 50%| 75%| max| min||
+|**Ratings of music albums (0-5)**|-|
+|-|-|
+|Valid: 유효한 데이터 수 |97% (78,200 개)|
+|Mismatched: 일치하지 않는 데이터 수 |0% (0 개)|
+|Missing: 결측치 수 |3% (2,084 개)|
+|Mean: 평균 값 |4.25|
+|Std. Deviation: 표준 편차|0.87|
+
+|Quantiles: 데이터 값의 분위수|-|
+|-|-|
+|Min|0.5|
+|25%|4| 
+|50%|4.5|
+|75%|5|
+|Max|5|
 
 
 ## 2.2 데이터 가공
