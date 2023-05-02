@@ -56,7 +56,8 @@
 |가장 많은 데이터는 0%로 나타납니다.|
 
 **Rating**
-|**Ratings of music albums (0-5)**|-|
+|**Ratings of music albums 
+(0-5)**|-|
 |-|-|
 |Valid: 유효한 데이터 수 |97% (78,200 개)|
 |Mismatched: 일치하지 않는 데이터 수 |0% (0 개)|
