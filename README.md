@@ -66,5 +66,8 @@ MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트
 
 # Reference
 
+https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html
+
+
 (수정사항: 신문기사 인용 주의
 보고서를 통해서 작성되었을 경우, 출처작성)
