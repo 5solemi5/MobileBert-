@@ -35,13 +35,9 @@
 - 데이터 형태
 
 |-|A|B|
-|-|-|-|
 |1|Review|Rating|
-|-|-|-|
 |2|i think i actually under-rate ok computer if anything.|5|
-|-|-|-|
 |3|when i was 15 and it was maybe the fourth|5|
-|-|-|-|
 |4|atmospheric a rock anthem as the band would ever do and|4.5|
 
 ## 2.2 데이터 가공
