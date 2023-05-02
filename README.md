@@ -32,7 +32,7 @@
 
 - 출처: https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews
 
-- 데이터 형태
+- 데이터 형태 [music_album_reviews.csv(74.01 MB)]
 
 |-|A|B|
 |-|-|-|
@@ -41,7 +41,7 @@
 |3|when i was 15 and it was maybe the fourth...|5|
 |4|atmospheric a rock anthem as the band would...|4.5|
 
--데이터 부가 정보
+- 데이터 부가 정보
 
 **Review** :Reviews of music albums
 
