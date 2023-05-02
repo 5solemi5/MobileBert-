@@ -32,7 +32,7 @@
 
 - 출처: https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews
 
-- 데이터 형태 [music_album_reviews.csv(74.01 MB)]
+- 데이터 형태 music_album_reviews.csv(74.01 MB)
 
 |-|A|B|
 |-|-|-|
