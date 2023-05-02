@@ -46,7 +46,7 @@
 
 - 데이터 부가 정보
 
-**Review**
+**#Review**
 |**Reviews of music albums**|-|
 |-|-|
 |Valid: 유효한 데이터|80.2k개| 
@@ -55,7 +55,10 @@
 |Unique values: 고유한 값|79.9k개|
 
 
-**Rating**
+**#Rating**
+
+![막대](https://user-images.githubusercontent.com/104000117/235798808-73883e3e-f9ea-455a-9ed0-cc3dc3379be1.png)
+
 |**Ratings of music albums (0-5)**|-|
 |-|-|
 |Valid: 유효한 데이터 수|97% (78,200 개)|
@@ -63,9 +66,7 @@
 |Missing: 결측치 수|3% (2,084 개)|
 |Mean: 평균 값|4.25|
 |Std. Deviation: 표준 편차|0.87|
-
 |Quantiles: 데이터 값의 분위수|-|
-|-|-|
 |Min|0.5|
 |25%|4| 
 |50%|4.5|
