@@ -53,6 +53,10 @@
 
 [2]https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html
 
+[이미지]
+https://hiphoppush.com/music-advice/how-to-get-reviewed-by-a-music-blog
+https://www.synchtank.com/blog/music-publishing-in-the-age-of-the-songwriter-report-part-4/
+
 
 
 (수정사항: 신문기사 인용 주의
