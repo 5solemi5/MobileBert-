@@ -42,19 +42,15 @@
 |2|when i was 15 and it was maybe the fourth...|5|
 |3|atmospheric a rock anthem as the band would...|4.5|
 
--- 0~5점 까지의 점수
-
+79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
+  
 - 데이터 부가 정보
 
-**#Review**
-|*Review*|:Reviews of music albums|
-|-|-|
-|Valid: 유효한 데이터|80.2k개| 
-|Missing: 결측치|26개|
-|Unique values: 고유한 값|79.9k개|
+  - Review
+문장의 길이 
 
 
-**#Rating**
+  - Rating
 
 |*Rating*|:Ratings of music albums (0-5)|
 |-|-|
