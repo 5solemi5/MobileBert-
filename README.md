@@ -42,19 +42,21 @@
 |2|when i was 15 and it was maybe the fourth...|5|
 |3|atmospheric a rock anthem as the band would...|4.5|
 
-79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
+이 데이터셋에는 79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
+
+![raw막대](https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png)
   
 - 데이터 부가 정보
 
   - Review
-문장의 길이 
+  너무 짧은 문장은 무의미 하므로 제거하는 과정을 거친다.  
+문장의 길이를 분석해 너무 짧은 문장들은 제거한다.
 
 
   - Rating
 
-|*Rating*|:Ratings of music albums (0-5)|
-|-|-|
 |Valid: 유효한 데이터 수|97% (78,200 개)|
+|-|-|
 |Mismatched: 일치하지 않는 데이터 수|0% (0 개)|
 |Missing: 결측치 수|3% (2,084 개)|
 |Mean: 평균 값|4.25|
