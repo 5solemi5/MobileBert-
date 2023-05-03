@@ -53,7 +53,10 @@
   - Review
   
   너무 짧은 문장들은 딥러닝 학습에 무의미한 데이터듣 이므로 제거하는 과정을 거친다. 
-
+  
+  ![히](https://user-images.githubusercontent.com/104000117/235825477-a3fbbb08-9315-419f-8ea2-5ae1368bc279.png)
+  
+   - <Review 문장 길이 히스토그램>
 
   - Rating
 
