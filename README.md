@@ -37,11 +37,12 @@
 - 데이터 형태
 
 |Index|Review|Rating|
+|-|-|-|
 |1|i think i actually under-rate ok computer...|5|
 |2|when i was 15 and it was maybe the fourth...|5|
 |3|atmospheric a rock anthem as the band would...|4.5|
 
-    - 0~5점 까지의 점수
+-- 0~5점 까지의 점수
 
 - 데이터 부가 정보
 
