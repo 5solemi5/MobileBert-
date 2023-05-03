@@ -45,6 +45,7 @@
 |3|atmospheric a rock anthem as the band would...|4.5|
 
 ![raw막대](https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png)
+
 위 그래프를 통해 Rating의 긍정의 부분에 Review 수가 치우쳐 있음을 볼 수 있다.
   
 - 데이터 부가 정보
