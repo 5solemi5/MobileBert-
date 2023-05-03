@@ -36,21 +36,22 @@
 
 - 데이터 형태
 
+이 데이터셋에는 79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
+
 |Index|Review|Rating|
 |-|-|-|
 |1|i think i actually under-rate ok computer...|5|
 |2|when i was 15 and it was maybe the fourth...|5|
 |3|atmospheric a rock anthem as the band would...|4.5|
 
-이 데이터셋에는 79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
-
 ![raw막대](https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png)
+위 그래프를 통해 Rating의 긍정의 부분에 Review 수가 치우쳐 있음을 볼 수 있다.
   
 - 데이터 부가 정보
 
   - Review
-  너무 짧은 문장은 무의미 하므로 제거하는 과정을 거친다.  
-문장의 길이를 분석해 너무 짧은 문장들은 제거한다.
+  
+  너무 짧은 문장들은 딥러닝 학습에 무의미한 데이터듣 이므로 제거하는 과정을 거친다. 
 
 
   - Rating
@@ -67,9 +68,6 @@
 |50%|4.5|
 |75%|5|
 |Max|5|
-
-![막대](https://user-images.githubusercontent.com/104000117/235798808-73883e3e-f9ea-455a-9ed0-cc3dc3379be1.png)
-
 
 ## 2.2 데이터 가공
 
