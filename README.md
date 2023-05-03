@@ -17,7 +17,7 @@
 # 1. 서론
 ## 1.1 음악 플랫폼 시장과 음악 리뷰 데이터의 증가
 
-  수많은 사람들이 음악 스트리밍 플랫폼을 통해 인터넷 상에서 음악이나 비디오를 스트리밍하는 서비스를 제공받고 있다. 사용자들은 인터넷에 연결된 장치에서 음악을 듣고, 저장 및 다운로드 없이 해당 음악에 대한 액세스 권한을 얻을 수 있기 때문에 다양한 음악에 대한 접근이 쉬워졌으며, 이러한 플랫폼들은 인터넷의 보급과 함께 급속도로 성장하고 있다. 전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하고, 영상부문에서는 전 세계 OTT(Over The Top) 서비스시장 규모가 '12년 63억 달러에서 '17년 247억 달러로 연평균 31.4% 성장하였다. [[1]](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 대표적인 음악 스트리밍 플랫폼으로 Spotify가 있는데, Spotify에만 2023년 3월 31일 기준으로 5억 1,500만 명이 오디오 스트리밍 서비스를 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. [[2]](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html) 
+  수많은 사람들이 음악 스트리밍 플랫폼을 통해 인터넷 상에서 음악이나 비디오를 스트리밍하는 서비스를 제공받고 있다. 사용자들은 인터넷에 연결된 장치에서 음악을 듣고, 저장 및 다운로드 없이 해당 음악에 대한 액세스 권한을 얻을 수 있기 때문에 다양한 음악에 대한 접근이 쉬워졌으며, 이러한 플랫폼들은 인터넷의 보급과 함께 급속도로 성장하고 있다. 전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [[1]](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 대표적인 음악 스트리밍 플랫폼으로 Spotify가 있는데, Spotify에만 2023년 3월 31일 기준으로 5억 1,500만 명이 오디오 스트리밍 서비스를 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. [[2]](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html) 
   
  ![음악 플랫폼 성장](https://user-images.githubusercontent.com/104000117/235769757-6f72f319-d67a-4539-a07f-84752c51198b.png)
 
@@ -32,17 +32,16 @@
 # 2.데이터
 ## 2.1 원시 데이터 현황
 
-- 출처: https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews
+- 출처: [Music Album Reviews and Ratings Dataset](https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews)
 
-- 데이터 형태 music_album_reviews.csv(74.01 MB)
+- 데이터 형태
 
-|-|A|B|
-|-|-|-|
-|1|Review|Rating|
-|2|i think i actually under-rate ok computer...|5|
-|3|when i was 15 and it was maybe the fourth...|5|
-|4|atmospheric a rock anthem as the band would...|4.5|
+|Index|Review|Rating|
+|1|i think i actually under-rate ok computer...|5|
+|2|when i was 15 and it was maybe the fourth...|5|
+|3|atmospheric a rock anthem as the band would...|4.5|
 
+    - 0~5점 까지의 점수
 
 - 데이터 부가 정보
 
@@ -50,7 +49,6 @@
 |*Review*|:Reviews of music albums|
 |-|-|
 |Valid: 유효한 데이터|80.2k개| 
-|Mismatched: 불일치 데이터|0개|
 |Missing: 결측치|26개|
 |Unique values: 고유한 값|79.9k개|
 
@@ -77,11 +75,6 @@
 ## 2.2 데이터 가공
 
 - 임계값(threshold)
-임계값은 모델의 성능과 관련이 있으며, 일반적으로 이진 분류를 할 때는 ROC curve와 F1-score 등을 활용하여 임계값을 결정할 수 있다.
-
-**ROC curve** True Positive Rate(TPR)와 False Positive Rate(FPR) 사이의 관계를 나타내는 그래프이다. 이 그래프에서 임계값이 변할 때, TPR과 FPR이 어떻게 변화하는지를 확인할 수 있다.
-
-**F1-score** precision과 recall의 조화 평균으로 계산된다. precision은 모델이 분류한 positive 중에서 실제 positive인 데이터의 비율을 나타내고, recall은 실제 positive 중에서 모델이 분류한 positive인 데이터의 비율을 나타낸다. 
 
 - 임계값을 기준으로 위의 데이터를 0 또는 1로 분류한 결과
 ![그림3](https://user-images.githubusercontent.com/104000117/232919132-60083ffb-0de6-443d-9b2f-f32a8d3ad646.png)
