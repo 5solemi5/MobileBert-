@@ -7,6 +7,8 @@
 음악 리뷰에는 보통 긍정적인 리뷰가 많지만, 일부 부정적인 리뷰도 있다. 이를 이진 분류 문제로 정의하여 MobileBERT 모델을 훈련시킨다. 
   
 ![music_review](https://github.com/5solemi5/sentiment_analysis/assets/104000117/b26daeca-d549-4658-9e1a-ce33e40c15ff)
+  
+  :shipit: Tech Stack :shipit:
 
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
 
