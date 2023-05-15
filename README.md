@@ -8,7 +8,7 @@
   
 ![music_review](https://github.com/5solemi5/sentiment_analysis/assets/104000117/b26daeca-d549-4658-9e1a-ce33e40c15ff)
   
-  :shipit: Tech Stack :shipit:
+  <h3>:shipit: Tech Stack :shipit:</h3>
 
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
 
