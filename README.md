@@ -2,13 +2,13 @@
   
 # 📀음악 리뷰 감성분석📀 
 
-**MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트**
+<h1>:shipit:MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트:shipit:</h1>
   
 음악 리뷰에는 보통 긍정적인 리뷰가 많지만, 일부 부정적인 리뷰도 있다. 이를 이진 분류 문제로 정의하여 MobileBERT 모델을 훈련시킨다. 
   
 ![music_review](https://github.com/5solemi5/sentiment_analysis/assets/104000117/b26daeca-d549-4658-9e1a-ce33e40c15ff)
   
-  <h3>:shipit: Tech Stack :shipit:</h3>
+  <h2>:heavy_check_mark:Tech Stack</h2>
 
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
 
@@ -26,6 +26,7 @@
   음악 시장의 수요 증가와 더불어 발전하는 IT기술이 음악 스트리밍 플랫폼을 성장시키고 있다. 음악 스트리밍 플랫폼은 기존에는 음악을 스트리밍하기 위한 단순한 플랫폼이었지만, 지금은 다양한 기능들을 제공하며 대부분의 스트리밍 플랫폼은 기본적으로 댓글과 평점과 같이 청취자가 실제로 앨범에 대해 피드백을 줄 수 있는 환경이 있다. 그리고 스트리밍 플랫폼 외에도 AllMusic, Pitchfork, Rolling Stone, RYM과 같은 음악 관련 웹사이트나 앱에서도 앨범에 대한 리뷰와 평점을 남길 수 있고 이러한 서비스들도 많아지고 있다. 음악 플랫폼의 시장이 확장되고 음악 리뷰 데이터를 얻을 수 있는 환경이 많아지는 현재, 다양한 음악 플랫폼에 많은 음악 리뷰 데이터들이 쌓이고 있다. 
   
   ![c](https://github.com/5solemi5/sentiment_analysis/assets/104000117/d5310985-abcf-4d17-b0ee-a27c74fe5985)
+  <h3>RYM사이트 배너</h3>
  
 ## 1.2 문제정의
 
@@ -41,10 +42,9 @@
 - 이 데이터 세트는 2022년 5월에 [RYM 사이트](https://rateyourmusic.com/)에서 스크래핑했다. 
 
 ![d](https://github.com/5solemi5/sentiment_analysis/assets/104000117/cc1037d2-4e78-400f-96a0-bcc7556a22cd)
-
-- 데이터 형태
-
-이 데이터셋에는 79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
+<h3>RYM사이트 리뷰의 일부분</h3>
+- 데이터 형태:
+79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
 
 |Index|Review|Rating|
 |-|-|-|
@@ -56,15 +56,14 @@
 
 위 그래프를 통해 Rating의 긍정의 부분에 Review 수가 치우쳐 있음을 볼 수 있다.
   
-- 데이터 부가 정보
+- 데이터 부가 정보:
 
   - Review
   
-  너무 짧은 문장들은 딥러닝 학습에 무의미한 데이터듣 이므로 제거하는 과정을 거친다. 
+  Review의 너무 짧은 문장들은 딥러닝 학습에 무의미한 데이터듣이므로 제거하는 과정을 거친다. 
   
-  ![히](https://user-images.githubusercontent.com/104000117/235825477-a3fbbb08-9315-419f-8ea2-5ae1368bc279.png)
-  
-   - <Review 문장 길이 히스토그램>
+![히](https://user-images.githubusercontent.com/104000117/235825477-a3fbbb08-9315-419f-8ea2-5ae1368bc279.png)
+<h3>Review 문장 길이 히스토그램</h3>
 
   - Rating
 
