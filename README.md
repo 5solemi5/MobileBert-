@@ -8,7 +8,7 @@
   
 ![kkk](https://github.com/5solemi5/sentiment_analysis/assets/104000117/2d5b993b-c2a2-42d9-a372-c8c9e850a8b9)
   
-<img src="https://github.com/5solemi5/sentiment_analysis/assets/104000117/2d5b993b-c2a2-42d9-a372-c8c9e850a8b9"  width="1000" height="300" >
+<img src="https://github.com/5solemi5/sentiment_analysis/assets/104000117/2d5b993b-c2a2-42d9-a372-c8c9e850a8b9"  width="900" height="400" >
 
 
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
