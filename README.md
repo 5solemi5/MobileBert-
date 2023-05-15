@@ -5,7 +5,8 @@
 **MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트**
   
 음악 리뷰에는 보통 긍정적인 리뷰가 많지만, 일부 부정적인 리뷰도 있다. 이를 이진 분류 문제로 정의하여 MobileBERT 모델을 훈련시킨다. 
-
+  
+![kkk](https://github.com/5solemi5/sentiment_analysis/assets/104000117/2d5b993b-c2a2-42d9-a372-c8c9e850a8b9)
 
 
 
@@ -19,8 +20,8 @@
 
   수많은 사람들이 음악 스트리밍 플랫폼을 통해 인터넷 상에서 음악이나 비디오를 스트리밍하는 서비스를 제공받고 있다. 사용자들은 인터넷에 연결된 장치에서 음악을 듣고, 저장 및 다운로드 없이 해당 음악에 대한 액세스 권한을 얻을 수 있기 때문에 다양한 음악에 대한 접근이 쉬워졌으며, 이러한 플랫폼들은 인터넷의 보급과 함께 급속도로 성장하고 있다. 전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [[1]](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 대표적인 음악 스트리밍 플랫폼으로 Spotify가 있는데, Spotify에만 2023년 3월 31일 기준으로 5억 1,500만 명이 오디오 스트리밍 서비스를 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. [[2]](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html) 
   
-![x](https://github.com/5solemi5/sentiment_analysis/assets/104000117/1b7c0fd8-d17a-4fcc-a386-1e04fee98988)
-![x (2)](https://github.com/5solemi5/sentiment_analysis/assets/104000117/444baab5-aad2-44c3-ac72-b4b4041a7dab)
+![final](https://github.com/5solemi5/sentiment_analysis/assets/104000117/4ab9b803-a2cd-488d-a487-e73dedcb57a6)
+![b](https://github.com/5solemi5/sentiment_analysis/assets/104000117/1cfe1464-55d2-4251-b5b9-e06d8a15357b)
  
   음악 시장의 수요 증가와 더불어 발전하는 IT기술이 음악 스트리밍 플랫폼을 성장시키고 있다. 음악 스트리밍 플랫폼은 기존에는 음악을 스트리밍하기 위한 단순한 플랫폼이었지만, 지금은 다양한 기능들을 제공하며 대부분의 스트리밍 플랫폼은 기본적으로 댓글과 평점과 같이 청취자가 실제로 앨범에 대해 피드백을 줄 수 있는 환경이 있다. 그리고 스트리밍 플랫폼 외에도 AllMusic, Pitchfork, Rolling Stone, RYM과 같은 음악 관련 웹사이트나 앱에서도 앨범에 대한 리뷰와 평점을 남길 수 있고 이러한 서비스들도 많아지고 있다. 음악 플랫폼의 시장이 확장되고 음악 리뷰 데이터를 얻을 수 있는 환경이 많아지는 현재, 다양한 음악 플랫폼에 많은 음악 리뷰 데이터들이 쌓이고 있다. 
   
