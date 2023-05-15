@@ -4,11 +4,12 @@
   
 ![music_review](https://github.com/5solemi5/sentiment_analysis/assets/104000117/b26daeca-d549-4658-9e1a-ce33e40c15ff)
   
-***:shipit:MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트:shipit:***
+**MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트**
   
-음악 리뷰에는 보통 긍정적인 리뷰가 많지만, 일부 부정적인 리뷰도 있다. 이를 이진 분류 문제로 정의하여 MobileBERT 모델을 훈련시킨다. 
+음악 리뷰에는 보통 긍정적인 리뷰가 많지만, 일부 부정적인 리뷰도 있다. 
+이를 이진 분류 문제로 정의하여 MobileBERT 모델을 훈련시킨다. 
   
-<h2>:heavy_check_mark:Tech Stack</h2> <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>
+<h2>:heavy_check_mark:Tech Stack <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a></h2>
 
 </div>
 
