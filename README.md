@@ -22,7 +22,7 @@
 
   전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [[1]](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 대표적인 음악 스트리밍 플랫폼으로 Spotify가 있는데, Spotify에만 2023년 3월 31일 기준으로 5억 1,500만 명이 오디오 스트리밍 서비스를 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. [[2]](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html)   
 
-<div><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/1cfe1464-55d2-4251-b5b9-e06d8a15357b" width="350"></div>
+<div><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/1cfe1464-55d2-4251-b5b9-e06d8a15357b" width="550"></div>
 
 ![b](https://github.com/5solemi5/sentiment_analysis/assets/104000117/1cfe1464-55d2-4251-b5b9-e06d8a15357b)
  
