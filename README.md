@@ -1,6 +1,7 @@
 <div align=center>
 
-![music_review](https://github.com/5solemi5/sentiment_analysis/assets/104000117/b26daeca-d549-4658-9e1a-ce33e40c15ff)
+![musicreview](https://github.com/5solemi5/sentiment_analysis/assets/104000117/78394c9e-85e3-4048-b273-37448e01be1e)
+
   
 # 📀음악 리뷰 감성분석📀 
   
