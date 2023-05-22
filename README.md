@@ -32,9 +32,9 @@
  
 ## 1.2 문제정의
 
+ <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/22254c73-a2aa-4343-a939-82a99151fa1a" width="590"></div>
+ 
   이미 Spotify, Apple Music, YouTube Music, Vibe 등의 플랫폼에서 사용자가 들은 음악에 대한 정보, 재생 횟수, 스킵 여부 등의 데이터들을 이용한 음악추천 AI 서비스가 배포되고 있는 상황이다. 이처럼 음악 리뷰 데이터도 AI 기술을 통해 유의미하게 이용될 수 있다. 
-  
-  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/22254c73-a2aa-4343-a939-82a99151fa1a" width="510"></div>
   
   과거에는 음악평론가들이 주로 음악 리뷰를 작성했지만, 최근에는 일반 사용자들도 자유롭게 리뷰를 작성할 수 있는 환경이 생겨났다. 이렇게 모인 음악 리뷰 데이터는 대중의 선호도와 음악 산업의 동향 파악에 유용한 정보를 제공한다. 감성분석 모델을 적용하면, 이 데이터를 분석하여 음악 추천 시스템을 개발하거나, 음악 장르와 아티스트의 인기도 등을 파악하여 마케팅 전략을 수립할 수 있다. 또한, 감성분석 모델은 아티스트의 평가와 평판 파악에도 활용될 수 있다. 
   
@@ -61,7 +61,7 @@
 
 [자료: 원시 데이터의 형태]
 
-<div align=center><img src = "https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png" width="510"></div>
+<div><img src = "https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png" width="580"></div>
 
 위 그래프를 통해 Rating의 긍정의 부분에 Review 수가 치우쳐 있음을 볼 수 있다.
   
