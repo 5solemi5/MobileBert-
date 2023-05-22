@@ -34,7 +34,7 @@
 
  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/3eee0ccc-1c2c-483d-9345-767b5d5b3c76" width="820"></div>
   
-[[Cyanite사이트의 How Do AI Music Recommendation Systems Work 그림]] (https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/)
+[[Cyanite사이트의 How Do AI Music Recommendation Systems Work 그림]](https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/)
  
   이미 Spotify, Apple Music, YouTube Music, Vibe 등의 플랫폼에서 사용자가 들은 음악에 대한 정보, 재생 횟수, 스킵 여부 등의 데이터들을 이용한 음악추천 AI 서비스가 배포되고 있는 상황이다. 이처럼 음악 리뷰 데이터도 AI 기술을 통해 유의미하게 이용될 수 있다. 
   
@@ -63,9 +63,9 @@
 
 [자료: 원시 데이터의 형태]
 
-<div><img src = "https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png" width="580"></div>
+<div><img src = "https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png" width="550"></div>
 
-위 그래프를 통해 Rating의 긍정의 부분에 Review 수가 치우쳐 있음을 볼 수 있다.
+<div>위 그래프를 통해 Rating의 긍정의 부분에 Review 수가 치우쳐 있음을 볼 수 있다.</div>
   
 - 데이터 부가 정보:
 
