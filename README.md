@@ -28,7 +28,7 @@
   
   전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [<sup>[1]</sup>](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 
   
-  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/e798581e-837d-40ab-b8eb-2e8968338dfe" width="850">
+  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/e798581e-837d-40ab-b8eb-2e8968338dfe" width="800">
   
 [[자료: Spotify Reports First Quarter 2023 Earnings 이미지]](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
   
@@ -109,14 +109,14 @@
   
   학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다. 
   
-  ![그림4](https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74)
-  
-   <div align=center>
-   
+  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74)
+ 
   [자료: 원시 데이터의 Distribution of Review Length그래프]
+  
+  </div>
 
 실행 결과, 863~32759 길이의 문장들이 추출된다.
-</div>
+
 
   - Rating
 
