@@ -109,7 +109,7 @@
   
   학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다. 
   
-  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74)
+  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74" width="850">
  
   [자료: 원시 데이터의 Distribution of Review Length그래프]
   
