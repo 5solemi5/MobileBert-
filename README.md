@@ -24,7 +24,6 @@
 
 <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/1cfe1464-55d2-4251-b5b9-e06d8a15357b" width="490"></div>
 
-![b](https://github.com/5solemi5/sentiment_analysis/assets/104000117/1cfe1464-55d2-4251-b5b9-e06d8a15357b)
  
   음악 시장의 수요 증가와 더불어 발전하는 IT기술이 음악 스트리밍 플랫폼을 성장시키고 있다. 음악 스트리밍 플랫폼은 기존에는 음악을 스트리밍하기 위한 단순한 플랫폼이었지만, 지금은 다양한 기능들을 제공하며 대부분의 스트리밍 플랫폼은 기본적으로 댓글과 평점과 같이 청취자가 실제로 앨범에 대해 피드백을 줄 수 있는 환경이 있다. 그리고 스트리밍 플랫폼 외에도 AllMusic, Pitchfork, Rolling Stone, RYM과 같은 음악 관련 웹사이트나 앱에서도 앨범에 대한 리뷰와 평점을 남길 수 있고 이러한 서비스들도 많아지고 있다. 음악 플랫폼의 시장이 확장되고 음악 리뷰 데이터를 얻을 수 있는 환경이 많아지는 현재, 다양한 음악 플랫폼에 많은 음악 리뷰 데이터들이 쌓이고 있다. 
   
@@ -55,6 +54,7 @@
 |1|i think i actually under-rate ok computer...|5|
 |2|when i was 15 and it was maybe the fourth...|5|
 |3|atmospheric a rock anthem as the band would...|4.5|
+
 [자료: 원시 데이터의 형태]
 
 ![raw막대](https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png)
@@ -68,7 +68,9 @@
   Review의 너무 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다. 
   
 ![히](https://user-images.githubusercontent.com/104000117/235825477-a3fbbb08-9315-419f-8ea2-5ae1368bc279.png)
+
 [자료: Review 문장 길이 히스토그램]
+
 
   - Rating
 
