@@ -86,7 +86,9 @@
 ![d](https://github.com/5solemi5/sentiment_analysis/assets/104000117/cc1037d2-4e78-400f-96a0-bcc7556a22cd)
 
 <div align=center>
+  
 [[자료: RYM사이트 리뷰의 일부분]](https://rateyourmusic.com/)
+  
 </div>
   
 - 데이터 형태:
