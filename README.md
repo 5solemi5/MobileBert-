@@ -84,13 +84,10 @@ review_lengths = []
 for d in data:
     review_lengths.append(len(d[0]))
 
-# 길이가 짧은 순으로 정렬
 review_lengths.sort()
 
-# 전체 데이터 길이의 70%를 계산
 threshold = int(len(review_lengths) * 0.7)
 
-# 70% 이하인 길이의 review를 출력
 for i in range(len(review_lengths)):
     if review_lengths[i] >= review_lengths[threshold]:
         print(review_lengths[i])
