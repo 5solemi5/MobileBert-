@@ -20,30 +20,32 @@
 
   현재 수많은 사람들이 음악 스트리밍 플랫폼을 통해 인터넷에 연결된 장치에서 음악을 듣고, 저장 및 다운로드 없이 해당 음악에 대한 액세스 권한을 얻을 수 있다. 때문에 다양한 음악에 대한 접근이 쉬워졌으며, 이러한 플랫폼들은 인터넷의 보급과 함께 급속도로 성장하고 있다.
   
-  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/1b33e7fc-d9ef-48c2-9ab9-d98c0dead007" width="300"></div>
+  <div><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/1b33e7fc-d9ef-48c2-9ab9-d98c0dead007" width="300"></div>
   
-[[자료: 국제음반산업협회(IFPI)]](https://test.hri.co.kr/upload/board/201921514759[1].hwp)
+  [[자료: 국제음반산업협회(IFPI)]](https://test.hri.co.kr/upload/board/201921514759[1].hwp)
   
   전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [<sup>[1]</sup>](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 
   
   ![그림2](https://github.com/5solemi5/sentiment_analysis/assets/104000117/e798581e-837d-40ab-b8eb-2e8968338dfe)
   
-[[자료: Spotify Reports First Quarter 2023 Earnings 이미지]]( https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
+[[자료: Spotify Reports First Quarter 2023 Earnings 이미지]](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
   
   그리고 대표적인 음악 스트리밍 플랫폼으로 Spotify가 있는데, Spotify에만 2023년 3월 31일 기준으로 5억 1,500만 명이 오디오 스트리밍 서비스를 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. 이러한 성장의 대부분은 무료 광고 지원 버전의 Spotify 서비스를 사용하는 사람들을 기반으로 한다. 프리미엄 구독은 전 분기 대비 2%, 전년 대비 15% 증가하여 2억 5백만에서 2억 1천만으로 전체 성장 속도를 따라가지 못했다. 그럼에도 불구하고 프리미엄 가입자는 Spotify가 투자자 지침에서 지적한 것보다 300만 명 더 증가했다. [<sup>[2]</sup>](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html)   
 
-<div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/d07094c2-8313-4229-9cd1-f7395f4607eb" width="900"></div>
+<div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/d07094c2-8313-4229-9cd1-f7395f4607eb" width="850">
 
 [자료: 2022-2023년 Spotify시장 분석 그래프]
+  
+</div>
 
   - Net Operating Loss 선 그래프 (순 영업 손실):
 전반적으로 Spotify는 해당 분기에 1억 5,600만 유로(1억 7,200만 달러)의 순 영업 손실을 기록했다. 이는 2022년 1분기에 본 600만 유로(660만 달러) 손실보다 훨씬 많은 금액이지만, 스포티파이가 지난 분기에 2억 7000만 유로(2억 9700만 달러) 손실을 낸 것보다 개선된 것이다.
 
   - Revenue 선 그래프 (매출):
-이 그래프는 분기별 매출을 나타내며, Q1 2023까지의 데이터를 포함한다. 매출은 2022년 Q1부터 2023년 Q1까지 꾸준히 증가하는 추세를 보인다. 하지만, Q4 2022와 Q1 2023 사이에 약간의 하락이 있었음을 알 수 있다.
+이 그래프는 분기별 매출을 나타내며, Q1 2023까지의 데이터를 포함한다. 매출은 2022년 Q1부터 2023년 Q1까지 꾸준히 증가하는 추세를 보인다. 하지만, Q4 2022와 Q1 2023 사이에 약간의 하락이 있었음을 알 수 있다.[<sup>[3]</sup>](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
 
   - Ad-supported Revenue 막대 그래프 (광고 매출):
-이 그래프는 분기별 광고 매출을 나타낸다. Q1 2022부터 Q1 2023까지 광고 매출은 상승했지만, Q4 2022와 Q1 2023 사이에 약간의 감소가 있었다.
+이 그래프는 분기별 광고 매출을 나타낸다. Q1 2022부터 Q1 2023까지 광고 매출은 상승했지만, Q4 2022와 Q1 2023 사이에 약간의 감소가 있었다. [<sup>[3]</sup>](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
 
  ![c](https://github.com/5solemi5/sentiment_analysis/assets/104000117/d5310985-abcf-4d17-b0ee-a27c74fe5985)
  
@@ -97,13 +99,10 @@
   학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다. 
   
   ![그림4](https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74)
+  
   [자료: 원시 데이터의 Distribution of Review Length그래프]
 
 실행 결과, 863~32759 길이의 문장들이 추출된다.
-  
-![히](https://user-images.githubusercontent.com/104000117/235825477-a3fbbb08-9315-419f-8ea2-5ae1368bc279.png)
-
-[자료: Review 문장 길이 히스토그램]
 
 
   - Rating
@@ -139,3 +138,5 @@
 [1]https://test.hri.co.kr/upload/board/201921514759[1].hwp
 
 [2]https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html
+
+[3]https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/
