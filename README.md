@@ -84,7 +84,10 @@
 - 이 데이터 세트는 2022년 5월에 [RYM사이트](https://rateyourmusic.com/)에서 스크래핑했다. 
 
 ![d](https://github.com/5solemi5/sentiment_analysis/assets/104000117/cc1037d2-4e78-400f-96a0-bcc7556a22cd)
+
+<div align=center>
 [[자료: RYM사이트 리뷰의 일부분]](https://rateyourmusic.com/)
+</div>
   
 - 데이터 형태:
 79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
