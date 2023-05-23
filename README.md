@@ -115,25 +115,25 @@
 |Mismatched: 일치하지 않는 데이터 수|0% (0 개)|
 |Missing: 결측치 수|3% (2,084 개)|
 
-  - Review
-  
-  학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다. 
-  
+  * Review
+    
   <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74" width="850">
  
   [자료: 원시 데이터의 Distribution of Review Length그래프]
   
   </div>
+  
+학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다.
 
 실행 결과, 863~32759 길이의 문장들이 추출된다.
 
-  - Rating
+  * Rating
 
 |Mean: 평균 값|4.25|
 |-|-|
 |Std. Deviation: 표준 편차|0.87|
 
-Quantiles: 데이터 값의 분위수
+   * 데이터 값의 분위수(Quantiles):
 
 |Min|0.5|
 |-|-|
