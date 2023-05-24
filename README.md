@@ -147,13 +147,13 @@
 - 임계값(threshold)을 기준으로 위의 데이터를 0 또는 1로 분류
 
 
-'''
+```
 
 threshold = 4.0
 data_upload['Rating_binary'] = np.where(data_upload['Rating'] >= threshold, 1,0)
 data_upload.head()
 
-'''
+```
 
 위 코드에서는 threshold 변수에 4.0 값을 할당한 후, 
 np.where() 함수를 사용하여 data_upload 데이터프레임의 Rating 열을 기준으로 threshold 이상인 경우 1, 미만인 경우 0으로 분류한 Rating_binary 열을 추가
