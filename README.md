@@ -125,6 +125,28 @@
   
 학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다.
 
+```
+
+import csv
+
+f = open("music_album_reviews.csv", encoding="cp949")
+data = csv.reader(f)
+
+review_lengths = []
+
+for d in data:
+    review_lengths.append(len(d[0]))
+
+review_lengths.sort()
+
+threshold = int(len(review_lengths) * 0.7)
+
+for i in range(len(review_lengths)):
+    if review_lengths[i] >= review_lengths[threshold]:
+        print(review_lengths[i])
+        
+```
+
 전체 데이터 길이의 70% 이상인 길이의 review를 출력 결과, 863~32759 길이의 문장들이 추출된다.
 
 **Rating**
