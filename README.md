@@ -42,13 +42,13 @@
   
 </div>
 
-  - Net Operating Loss 선 그래프 (순 영업 손실):
+ Net Operating Loss 선 그래프 (순 영업 손실):
 전반적으로 Spotify는 해당 분기에 1억 5,600만 유로(1억 7,200만 달러)의 순 영업 손실을 기록했다. 이는 2022년 1분기에 본 600만 유로(660만 달러) 손실보다 훨씬 많은 금액이지만, 스포티파이가 지난 분기에 2억 7000만 유로(2억 9700만 달러) 손실을 낸 것보다 개선된 것이다. [<sup>[2]</sup>](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html)
 
-  - Revenue 선 그래프 (매출):
+ Revenue 선 그래프 (매출):
 이 그래프는 분기별 매출을 나타내며, Q1 2023까지의 데이터를 포함한다. 매출은 2022년 Q1부터 2023년 Q1까지 꾸준히 증가하는 추세를 보인다. 하지만, Q4 2022와 Q1 2023 사이에 약간의 하락이 있었음을 알 수 있다.[<sup>[3]</sup>](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
 
-  - Ad-supported Revenue 막대 그래프 (광고 매출):
+ Ad-supported Revenue 막대 그래프 (광고 매출):
 이 그래프는 분기별 광고 매출을 나타낸다. Q1 2022부터 Q1 2023까지 광고 매출은 상승했지만, Q4 2022와 Q1 2023 사이에 약간의 감소가 있었다. [<sup>[3]</sup>](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
 
  ![c](https://github.com/5solemi5/sentiment_analysis/assets/104000117/d5310985-abcf-4d17-b0ee-a27c74fe5985)
