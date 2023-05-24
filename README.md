@@ -167,7 +167,7 @@ for i in range(len(review_lengths)):
 전체 데이터 길이의 70% 이상인 길이의 review를 출력 결과, 863~32759 길이의 문장들이 추출된다.
 
 
-- 임계값(threshold)을 기준으로 위의 데이터를 0 또는 1로 분류
+- 임계값(threshold)을 기준으로  0 또는 1 분류
 
 
 ```
@@ -181,12 +181,6 @@ data_upload.head()
 위 코드에서는 threshold 변수에 4.0 값을 할당한 후, 
 np.where() 함수를 사용하여 data_upload 데이터프레임의 Rating 열을 기준으로 threshold 이상인 경우 1, 미만인 경우 0으로 분류한 Rating_binary 열을 추가
 
-
-  
-![그림3](https://user-images.githubusercontent.com/104000117/232919132-60083ffb-0de6-443d-9b2f-f32a8d3ad646.png)
-
-(추가/수정사항: 임계값 구한 방법 설명.....
-이진분류 (출력)/파이차트, 제거 데이터, 입력 데이터에 대한 설명/문장 데이터=>길이 분포 len(str)/도수분표, 최종 데이터 (f_data, ,csv, 엑셀, 제이쓴..), raw_data.csv 가공 source.py 이력들 기록, <데이터 접근> )
 
 # 딥러닝 모델링
 
