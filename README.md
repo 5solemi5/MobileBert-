@@ -70,7 +70,7 @@
    
  </div>
  
-  이미 Spotify, Apple Music, Vibe 등의 플랫폼에서 사용자가 들은 음악에 대한 정보, 재생 횟수, 스킵 여부 등의 데이터들을 이용한 AI 서비스가 배포되고 있는 상황이다. 이처럼 음악 리뷰 데이터도 AI 기술을 통해 유의미하게 이용될 수 있다. 
+  이미 Spotify, Apple Music, Vibe 등의 플랫폼에서 사용자가 들은 음악에 대한 정보, 재생 횟수, 스킵 여부 등의 데이터들을 이용한 AI 서비스가 배포되고 있는 상황이다.[<sup>[4]</sup>](https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/) 이처럼 음악 리뷰 데이터도 AI 기술을 통해 유의미하게 이용될 수 있다. 
   
   과거에는 음악평론가들이 주로 음악 리뷰를 작성했지만, 최근에는 일반 사용자들도 자유롭게 리뷰를 작성할 수 있는 환경이 되었다. 이렇게 모인 음악 리뷰 데이터는 대중의 선호도와 음악 산업의 동향 파악에 유용한 정보를 제공한다. 이 데이터에 감성분석 모델을 적용하면, 이 데이터를 분석하여 음악 추천 시스템을 개발하거나, 음악 장르와 아티스트의 인기도 등을 파악하여 마케팅 전략을 수립할 수 있다.  
   
@@ -162,3 +162,5 @@
 [2]https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html
 
 [3]https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/
+
+[4]https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/
