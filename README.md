@@ -115,7 +115,7 @@
 |Mismatched: 일치하지 않는 데이터 수|0% (0 개)|
 |Missing: 결측치 수|3% (2,084 개)|
 
-**Review**
+**Review:**
     
   <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74" width="850">
  
@@ -124,13 +124,13 @@
   </div>
   
 
-**Rating**
+**Rating:**
 
 |Mean: 평균 값|4.25|
 |-|-|
 |Std. Deviation: 표준 편차|0.87|
 
-**Rating 데이터 값의 분위수(Quantiles)**
+**Rating 데이터 값의 분위수(Quantiles):**
 
 |Min|0.5|
 |-|-|
