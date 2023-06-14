@@ -184,6 +184,10 @@ np.where() 함수를 사용하여 data_upload 데이터프레임의 Rating 열�
 
 # 딥러닝 모델링
 
+![1플젝](https://github.com/5solemi5/sentiment_analysis/assets/104000117/1f27fa91-40f9-4bea-86d8-c795000502d0)
+
+![2플젝](https://github.com/5solemi5/sentiment_analysis/assets/104000117/6df6a480-c69d-476f-acca-ca204a61e1ea)
+
 # Reference
 
 [1]https://test.hri.co.kr/upload/board/201921514759[1].hwp
