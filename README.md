@@ -142,51 +142,21 @@
 ## 2.2 데이터 가공
 
 - 학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다.
-
-```
-
-import csv
-
-f = open("music_album_reviews.csv", encoding="cp949")
-data = csv.reader(f)
-
-review_lengths = []
-
-for d in data:
-    review_lengths.append(len(d[0]))
-
-review_lengths.sort()
-
-threshold = int(len(review_lengths) * 0.7)
-
-for i in range(len(review_lengths)):
-    if review_lengths[i] >= review_lengths[threshold]:
-        print(review_lengths[i])
-        
-```
-전체 데이터 길이의 70% 이상인 길이의 review를 출력 결과, 863~32759 길이의 문장들이 추출된다.
+ - 문장 길이 20~855만 추출 
 
 
-- 임계값(threshold)을 기준으로  0 또는 1 분류
+- Rating 3.5의 리뷰는 중립적인 내용의 리뷰가 대부분이었다. 학습 정확도를 높이기 위해 Rating 3.5의 리뷰는 제외했다.
+ - 전처리 데이터 수: 48844 건
 
-
-```
-
-threshold = 4.0
-data_upload['Rating_binary'] = np.where(data_upload['Rating'] >= threshold, 1,0)
-data_upload.head()
-
-```
-
-위 코드에서는 threshold 변수에 4.0 값을 할당한 후, 
-np.where() 함수를 사용하여 data_upload 데이터프레임의 Rating 열을 기준으로 threshold 이상인 경우 1, 미만인 경우 0으로 분류한 Rating_binary 열을 추가
+- 전처리 데이터의 Rating이 3.5 초과인 경우 1, 미만인 경우 0으로 이진 분류
 
 
 # 딥러닝 모델링
 
+![2플젝](https://github.com/5solemi5/sentiment_analysis/assets/104000117/6df6a480-c69d-476f-acca-ca204a61e1ea)
+
 ![1플젝](https://github.com/5solemi5/sentiment_analysis/assets/104000117/1f27fa91-40f9-4bea-86d8-c795000502d0)
 
-![2플젝](https://github.com/5solemi5/sentiment_analysis/assets/104000117/6df6a480-c69d-476f-acca-ca204a61e1ea)
 
 # Reference
 
