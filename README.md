@@ -18,19 +18,11 @@
 # 1. 서론
 ## 1.1 음악 플랫폼 시장과 음악 리뷰 데이터의 증가
 
-  현재 수많은 사람들이 음악 스트리밍 플랫폼을 통해 인터넷에 연결된 장치에서 음악을 듣고, 저장 및 다운로드 없이 해당 음악에 대한 액세스 권한을 얻을 수 있다. 때문에 다양한 음악에 대한 접근이 쉬워졌으며, 이러한 플랫폼들은 인터넷의 보급과 함께 급속도로 성장하고 있다.
+  현재 수많은 사람들이 음악 스트리밍 플랫폼을 통해 인터넷에 연결된 장치에서 음악을 듣고, 저장 및 다운로드 없이 해당 음악에 대한 액세스 권한을 얻을 수 있다. 때문에 다양한 음악에 대한 접근이 쉬워졌으며, 이러한 플랫폼들은 인터넷의 보급과 함께 급속도로 성장하고 있다. 전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [<sup>[1]</sup>](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 
   
   <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/1b33e7fc-d9ef-48c2-9ab9-d98c0dead007" width="300">
   
   [[자료: 국제음반산업협회(IFPI)]](https://test.hri.co.kr/upload/board/201921514759[1].hwp)
-  
-  </div>
-  
-  전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [<sup>[1]</sup>](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 
-  
-  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/e798581e-837d-40ab-b8eb-2e8968338dfe" width="800">
-  
-[[자료: Spotify Reports First Quarter 2023 Earnings 이미지]](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
   
   </div>
   
