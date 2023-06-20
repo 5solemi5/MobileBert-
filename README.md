@@ -214,6 +214,8 @@ Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 �
   </div>
 
 **개발환경:
+<img src="https://img.shields.io/badge/pycharm 2022.3.3-3776AB?style=flat-square&logo=pycharm&logoColor=white"/></a>
+pycharm 2022.3.3
 pycharm 2022.3.3
 Python 3.9.0 
 pandas 1.4.4
