@@ -79,9 +79,9 @@
 # 2.데이터
 ## 2.1 원시 데이터 현황
 
-- 원시 데이터 출처: Kaggle에서 제공하는 [Music Album Reviews and Ratings Dataset](https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews) 데이터셋을 이용한다.
+- 원시 데이터 출처:
 
-- 이 데이터 세트는 2022년 5월에 [RYM사이트](https://rateyourmusic.com/)에서 스크래핑했다. 
+  Kaggle에서 제공하는 [Music Album Reviews and Ratings Dataset](https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews) 데이터셋을 이용한다. 이 데이터 세트는 2022년 5월에 [RYM사이트](https://rateyourmusic.com/)에서 스크래핑했다. 
 
 ![d](https://github.com/5solemi5/sentiment_analysis/assets/104000117/cc1037d2-4e78-400f-96a0-bcc7556a22cd)
 
@@ -91,16 +91,23 @@
   
 </div>
   
-- 데이터 형태:
-79922여개의 Review가 있고 Rating은 부정에서 긍정을 0~5 사이로 점수를 매겼다.
+- 원시 데이터 분석:
+
+<div align=center>
 
 |Index|Review|Rating|
 |-|-|-|
 |1|i think i actually under-rate ok computer...|5|
 |2|when i was 15 and it was maybe the fourth...|5|
 |3|atmospheric a rock anthem as the band would...|4.5|
+|...|...|...|
+|80279|i do not like funk and i do not like prince. this is ...|1|
 
 [자료: 원시 데이터의 형태]
+
+</div>
+
+80,279여개의 Review가 있고 Rating은 부정에서 긍정을 0~5사이에서 0.5 단위로 점수를 매겼다.
 
 <div align=center><img src = "https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png" width="690">
 
