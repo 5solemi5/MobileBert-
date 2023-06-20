@@ -69,7 +69,7 @@
   이는 음악 산업에서 매우 중요한 분야가 될 수 있으며, 다양한 역량을 강화하는 데에도 도움이 된다. 때문에 본인은 첫걸음으로 음악 리뷰 데이터를 사용해서 MobileBert를 활용한 긍부정 예측 딥러닝 프로젝트를 해볼 예정이다.
 
 # 2.데이터
-## 2.1 원시 데이터 현황
+## 2.1 원시 데이터
 
 - 원시 데이터 출처:
 
@@ -99,64 +99,123 @@
 
 </div>
 
-80,279여개의 Review가 있고 Rating은 부정에서 긍정을 0~5사이에서 0.5 단위로 점수를 매겼다.
-
-<div align=center><img src = "https://user-images.githubusercontent.com/104000117/235824482-9bc6893d-d1b9-4d4c-acf6-afc13a0fe025.png" width="690">
-
-위 그래프를 통해 Rating의 긍정의 부분에 Review 수가 치우쳐 있음을 볼 수 있다.
-  
-</div>
-  
-- 데이터 부가 정보:
-
-|Valid: 유효한 데이터 수|97% (78,200 개)|
-|-|-|
-|Mismatched: 일치하지 않는 데이터 수|0% (0 개)|
-|Missing: 결측치 수|3% (2,084 개)|
-
-**Review:**
+80,279여개의 Review가 있고 Rating은 부정에서 긍정을 0~5사이에서 0.5 단위로 점수를 매겼다. 원시 데이터에서 NaN 값을 제거한 데이터의 수는80,245개이다. 앞으로 NaN 값을 제거한 데이터를 가지고 분석 할 것이다.
     
-  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/664e2aef-422d-4200-afe7-99607e6bcd74" width="850">
+  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/677827f2-88b4-4d44-a5bb-08b03a516fda" width="600">
  
-  [자료: 원시 데이터의 Distribution of Review Length그래프]
+  [자료: 원시 데이터_Review의 개수와 Rating 관계분석 그래프]
   
   </div>
+
+  위 그래프를 통해 Rating의 긍정 부분에 Review 수가 치우쳐 있고 평점이 높을수록 리뷰의 개수가 증가하는 경향을 보인다.
+가장 많은 리뷰 개수는 평점 5에 해당하는 앨범들이 차지하고 있다. 이는 평점 5를 받은 앨범들이 가장 인기가 많거나, 사용자들이 긍정적으로 평가한 앨범들이 많다는 것을 알 수 있고 평점이 2.5 미만인 앨범들에 대한 리뷰가 상대적으로 적기 때문에 이는 반대로 낮은 평점을 받은 앨범들에 대한 관심이 적거나, 리뷰가 적게 작성된 것을 의미할 수 있다.
+
+  <div align=center>
+    <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/e0316a3f-9ae4-4e01-9368-08a031ef29fa" width="800">
+    <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/0fca3c3d-a515-499a-9313-189f4dd221c5" width="800">
+ 
+  [자료: 원시 데이터_Review의 문장길이와 개수 관계분석 그래프]
   
+  </div>
 
-**Rating:**
+  리뷰의 대부분은 길이가 0에서 5,000 사이에 분포하고 있고 길이가 5,000을 넘어가면서부터 리뷰의 개수가 급격히 감소한다.
 
-|Mean: 평균 값|4.25|
-|-|-|
-|Std. Deviation: 표준 편차|0.87|
+## 2.2 분석 데이터
 
-**Rating 데이터 값의 분위수(Quantiles):**
+딥러닝 학습을 위해 원본 데이터를 가공하여 분석 데이터를 만든다.
 
-|Min|0.5|
-|-|-|
-|25%|4| 
-|50%|4.5|
-|75%|5|
-|Max|5|
+- 가공한 방식:
+  
+(1) 학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다. 문장 길이가 20~855인 Reviews만 추출했다. 
 
-## 2.2 데이터 가공
+(2)Rating 3.5의 리뷰는 중립적인 내용의 리뷰가 대부분이었다. 학습 정확도를 높이기 위해 Rating 3.5의 리뷰는 제외했다. 최종 전처리한 데이터 수 48,844 건이다.
 
-- 학습하는 Review의 너무 길거나 짧은 문장들은 딥러닝 학습에 무의미한 데이터들이므로 제거하는 과정을 거친다.
+(3) 전처리한 데이터의 Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 바꾸어서 이진 분류했다.
 
-  - 문장 길이 20~855만 추출 
+- 가공한 결과:
+  
+<div align=center>
 
-- Rating 3.5의 리뷰는 중립적인 내용의 리뷰가 대부분이었다. 학습 정확도를 높이기 위해 Rating 3.5의 리뷰는 제외했다.
+  |Index|Review|Rating|
+|-|-|-|
+|1|this album is great.|1|
+|2|it is thee illmatic.|1|
+|3|son of shivaaaaaaaaa|1|
+|...|...|...|
+|48845|the replacements third album is widely regarded...|0|
+  
+[자료: 분석 데이터의 형태]
 
-  - 전처리 데이터 수: 48844 건
+</div>
 
-- 전처리 데이터의 Rating이 3.5 초과인 리뷰를 1(긍정), 1 미만인 리뷰를 0(부정)으로 바꾸어서 이진 분류 했다.
+<div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/0678ea91-e667-44f9-bc2a-8b38b82a469c" width="600">
+ 
+  [자료: 분석 데이터_Review의 개수와 Rating 관계분석 그래프]
+   
+  </div>
+
+Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 평균값보다 높은 임계값을 기준으로 이진 분류했음에도 불구하고 1(긍정)에 데이터가 치우쳐 있다.
+클래스 불균형은 모델의 학습에 부정적인 영향을 미칠 수 있는 다음과 같은 이유로 인해 문제가 될 수 있다.
+
+(1)	편향된 학습: 학습 데이터에서 많은 수의 샘플이 있는 클래스에 대해 모델이 더 많은 경험을 하게 된다. 이는 모델이 훈련 데이터의 분포에 따라 편향되게 학습될 수 있음을 의미한다. 편향된 학습은 모델이 소수 클래스의 패턴과 특징을 제대로 학습하지 못하게 하며, 새로운 샘플을 예측할 때 정확도와 성능을 저하시킬 수 있다.
+
+(2)오분류 문제: 모델은 자연스럽게 많은 클래스에 속하는 샘플을 예측하는 경향이 있다. 이로 인해 소수 클래스의 샘플을 정확하게 예측하지 못하고 오분류할 가능성이 높아진다. 
+
+(3)성능 측정의 오류: 클래스 불균형이 있는 데이터에서 모델의 성능을 평가하는 경우, 정확도(Accuracy)만으로는 모델의 성능을 정확히 평가할 수 없다. 클래스 불균형 데이터에서는 대다수 클래스로 예측하는 경향이 있기 때문에, 모델이 불균형한 데이터에서도 높은 정확도를 보일 수 있다.[<sup>[5]</sup>](https://towardsdatascience.com/handling-imbalanced-datasets-in-deep-learning-f48407a0e758)   
+
+<div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/2d860b8d-d3d1-4b25-986d-f2aeaaabe5b2" width="850">
+ 
+  [자료: 분석 데이터_Review의 개수와 Rating 관계분석 그래프]
+   
+  </div>
+
+## 2.3 학습 데이터  
+
+학습 데이터는 모델이 패턴과 특징을 학습하는 데 사용되는 데이터로, 이를 통해 모델은 입력과 출력 간의 관계를 학습하고 예측을 수행할 수 있게 된다.
+  
+- 추출한 방식: 1(긍정), 0(부정)에서 임의로 각각 1,000건씩 추출하여 2,000건을 학습했다.
+
+- 추출한 결과:
+
+<div align=center> 
+  
+  |Index|Review|Rating|
+|-|-|-|
+|1|hurrah finally i had my first radiohead experience...|0|
+|2|so let me get this straight. a bunch of one-hit-wonde...|0|
+|3|i can sort of understand the praise this album gets...|0|
+|...|...|...|
+|2000|8 out of the 12 songs are solid solid solid. the album...|1|
+ 
+  [자료: 학습 데이터의 형태]
+   
+  </div>
 
 
-# 딥러닝 모델링
+# 3. 결과
 
-![2플젝](https://github.com/5solemi5/sentiment_analysis/assets/104000117/6df6a480-c69d-476f-acca-ca204a61e1ea)
+## 3.1 MobileBERT를 사용한 결과
 
-![1플젝](https://github.com/5solemi5/sentiment_analysis/assets/104000117/1f27fa91-40f9-4bea-86d8-c795000502d0)
+<div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/6df6a480-c69d-476f-acca-ca204a61e1ea" width="750">
+ 
+  [자료: training, validation 그래프]
+   
+  </div>
 
+
+## 3.2 분석 데이터 전체에 적용한 결과값 
+
+<div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/936e66f7-d9c9-4101-b87a-15626699ea34" width="450">
+ 
+  [자료: accuracy 결과창]
+   
+  </div>
+
+
+
+** 개발환경: **
+
+# 4. 최종결론
 
 # Reference
 
@@ -167,3 +226,5 @@
 [3]https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/
 
 [4]https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/
+
+[5]https://towardsdatascience.com/handling-imbalanced-datasets-in-deep-learning-f48407a0e758
