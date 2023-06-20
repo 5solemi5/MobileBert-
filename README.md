@@ -213,20 +213,28 @@ Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 �
    
   </div>
 
-**개발환경:
-<img src="https://img.shields.io/badge/pycharm 2022.3.3-3776AB?style=flat-square&logo=pycharm&logoColor=white"/></a>
-pycharm 2022.3.3
-pycharm 2022.3.3
-Python 3.9.0 
-pandas 1.4.4
-torch 1.12.1
-tensorflow 2.9.1
-numpy 1.24.2
-transformers 4.21.2
-scikit-learn 1.2.2**
+**⚒️개발환경⚒️**
+
+<img src="https://img.shields.io/badge/pycharm 2022.3.3-6495ED?style=flat-square&logo=pycharm&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/Python 3.9.0-6495ED?style=flat-square&logo=Python&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/pandas 1.4.4-6495ED?style=flat-square&logo=pandas&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/torch 1.12.1-6495ED?style=flat-square&logo=torch&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/tensorflow 2.9.1-6495ED?style=flat-square&logo=tensorflow&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/numpy 1.24.2-6495ED?style=flat-square&logo=numpy&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/transformers 4.21.2-6495ED?style=flat-square&logo=transformers&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/scikit-learn 1.2.2-6495ED?style=flat-square&logo=scikit-learn&logoColor=white"/></a>
+
 
 
 # 4. 최종결론
+
 
 # Reference
 
