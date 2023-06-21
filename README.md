@@ -194,19 +194,23 @@ Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 �
 # 3. 결과
 
 ## 3.1 MobileBERT를 사용한 결과
-
+ Learning Curve (학습 곡선)은 보통 Train set과 Validation(test) set에 대해서 각각 loss와 metric을 훈련 중간중간 마다 체크한 곡선을 말한다. loss, metric을 체크하면 지금 모델이 underfit 되고 있는지, overfit 되고 있는지, 또는 그 외의 문제가 있는지를 알 수 있다. 
+ 
 <div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/6df6a480-c69d-476f-acca-ca204a61e1ea" width="750">
  
   [자료: training, validation 그래프]
    
   </div>
 
+위의 그래프를 보면 loss는 계속 떨어지고, Accuracy는 높아지고 있다. 그렇다면 훈련이 잘 진행되고 있고, 언더피팅과 오버피팅이 일어나지 않았음을 알 수 있다.  
+
 
 ## 3.2 분석 데이터 전체에 적용한 결과 
-
 <div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/936e66f7-d9c9-4101-b87a-15626699ea34" width="450">
  
   [자료: accuracy 결과창]
+
+  
    
   </div>
 
