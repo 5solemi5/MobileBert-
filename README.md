@@ -51,7 +51,7 @@
  
 ## 1.2 문제정의
 
- <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/6fae20ed-3f38-439b-ae35-9ee09f5268cd" width="520"></div>
+ <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/6fae20ed-3f38-439b-ae35-9ee09f5268cd" width="500"></div>
  
   이미 Spotify, Apple Music, Vibe 등의 플랫폼에서 사용자가 들은 음악에 대한 정보, 재생 횟수, 스킵 여부 등의 데이터들을 이용한 AI 서비스가 배포되고 있는 상황이다.[<sup>[4]</sup>](https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/) 이처럼 음악 리뷰 데이터도 AI 기술을 통해 유의미하게 이용될 수 있다. 
   
@@ -195,8 +195,7 @@ Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 �
   [자료: training, validation 그래프]
   </div>
 
-위의 그래프를 보면 loss는 계속 떨어지고, Accuracy는 높아지고 있다. 그렇다면 훈련이 잘 진행되고 있고, 언더피팅과 오버피팅이 일어나지 않았음을 알 수 있다.  
-훈련 데이터 전체에 적용한 모델의 accuracy는 0.76%이다. 즉, 예측 모델이 입력 데이터를 올바르게 분류한 비율이 0.76%라는 의미이다.
+위의 그래프를 보면 loss는 계속 떨어지고, Accuracy는 높아지고 있다. 그렇다면 훈련이 잘 진행되고 있고, 언더피팅과 오버피팅이 일어나지 않았음을 알 수 있다. 훈련 데이터 전체에 적용한 모델의 accuracy는 0.76%이다. 즉, 예측 모델이 입력 데이터를 올바르게 분류한 비율이 0.76%라는 의미이다.
 
 ## 3.2 분석 데이터 전체에 적용한 결과 
 <div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/936e66f7-d9c9-4101-b87a-15626699ea34" width="450">
