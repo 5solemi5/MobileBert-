@@ -31,7 +31,6 @@
   
   대표적인 음악 플랫폼인 Spotify 시장 분석을 통해서도 음악 플랫폼 시장의 확장을 체감할 수 있다. Spotify에만 2023년 3월 31일 기준으로 5억 1,500만 명이 오디오 스트리밍 서비스를 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. 이러한 성장의 대부분은 무료 광고 지원 버전의 Spotify 서비스를 사용하는 사람들을 기반으로 한다. 프리미엄 구독은 전 분기 대비 2%, 전년 대비 15% 증가하여 2억 5백만에서 2억 1천만으로 전체 성장 속도를 따라가지 못했다. 그럼에도 불구하고 프리미엄 가입자는 Spotify가 투자자 지침에서 지적한 것보다 300만 명 더 증가했다. [<sup>[2]</sup>](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html)   
   
-  더 나아가서 기존의 음악 스트리밍 플랫폼은 단순히 음악을 스트리밍하기 위한 플랫폼이었지만, 지금은 다양한 기능들을 제공하며 대부분의 스트리밍 플랫폼에 기본적으로 댓글과 평점과 같이 청취자가 실제로 앨범에 대해 피드백을 줄 수 있는 환경이 생겨났다. 스트리밍 플랫폼 외에도 AllMusic, Pitchfork, RYM 등과 같은 음악 관련 웹사이트나 앱에서도 앨범에 대한 리뷰와 평점을 남길 수 있고 이러한 서비스들이 많아지고 있다. 이처럼 사람들의 음악에 대한 관심도와 함께 음악 플랫폼의 시장이 확장되면서 음악 리뷰를 쓸 수있는 환경이 많아지고 다양한 음악 플랫폼에 많은 음악 리뷰 데이터들이 쌓이고 있다. 
 
 <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/85ce4a6e-d94e-45db-a2eb-05d64dd82311" width="580">
  
@@ -47,11 +46,21 @@
 
  Ad-supported Revenue 막대 그래프 (광고 매출):
 이 그래프는 분기별 광고 매출을 나타낸다. Q1 2022부터 Q1 2023까지 광고 매출은 상승했지만, Q4 2022와 Q1 2023 사이에 약간의 감소가 있었다. [<sup>[3]</sup>](https://newsroom.spotify.com/2023-04-25/spotify-reports-first-quarter-2023-earnings/)
-   
+
+
+![d](https://github.com/5solemi5/sentiment_analysis/assets/104000117/cc1037d2-4e78-400f-96a0-bcc7556a22cd)
+
+<div align=center>
+  
+[[자료: RYM사이트 리뷰의 일부분]](https://rateyourmusic.com/)
+  
+</div>
+
+
+  더 나아가서 기존의 음악 스트리밍 플랫폼은 단순히 음악을 스트리밍하기 위한 플랫폼이었지만, 지금은 다양한 기능들을 제공하며 대부분의 스트리밍 플랫폼에 기본적으로 댓글과 평점과 같이 청취자가 실제로 앨범에 대해 피드백을 줄 수 있는 환경이 생겨났다. 스트리밍 플랫폼 외에도 AllMusic, Pitchfork, RYM 등과 같은 음악 관련 웹사이트나 앱에서도 앨범에 대한 리뷰와 평점을 남길 수 있고 이러한 서비스들이 많아지고 있다. 이처럼 사람들의 음악에 대한 관심도와 함께 음악 플랫폼의 시장이 확장되면서 음악 리뷰를 쓸 수있는 환경이 많아지고 다양한 음악 플랫폼에 많은 음악 리뷰 데이터들이 쌓이고 있다. 
+     
  
 ## 1.2 문제정의
-
- <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/6fae20ed-3f38-439b-ae35-9ee09f5268cd" width="500"></div>
  
   이미 Spotify, Apple Music, Vibe 등의 플랫폼에서 사용자가 들은 음악에 대한 정보, 재생 횟수, 스킵 여부 등의 데이터들을 이용한 AI 서비스가 배포되고 있는 상황이다.[<sup>[4]</sup>](https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/) 이처럼 음악 리뷰 데이터도 AI 기술을 통해 유의미하게 이용될 수 있다. 
   
@@ -62,17 +71,7 @@
 # 2.데이터
 ## 2.1 원시 데이터
 
-- 원시 데이터 출처:
-
-  Kaggle에서 제공하는 [Music Album Reviews and Ratings Dataset](https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews) 데이터셋을 이용한다. 이 데이터 세트는 2022년 5월에 [RYM사이트](https://rateyourmusic.com/)에서 스크래핑했다. 
-
-![d](https://github.com/5solemi5/sentiment_analysis/assets/104000117/cc1037d2-4e78-400f-96a0-bcc7556a22cd)
-
-<div align=center>
-  
-[[자료: RYM사이트 리뷰의 일부분]](https://rateyourmusic.com/)
-  
-</div>
+- 원시 데이터 출처: Kaggle에서 제공하는 [Music Album Reviews and Ratings Dataset](https://www.kaggle.com/datasets/michaelbryantds/78k-music-album-reviews) 데이터셋을 이용한다. 이 데이터 세트는 2022년 5월에 [RYM사이트](https://rateyourmusic.com/)에서 스크래핑했다. 
   
 - 원시 데이터 분석:
 
