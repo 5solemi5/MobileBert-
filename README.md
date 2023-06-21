@@ -26,17 +26,20 @@
   
  </div>
 
-  <div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/85ce4a6e-d94e-45db-a2eb-05d64dd82311" width="580">
- 
-  [자료: [국제음반산업협회(IFPI)](https://test.hri.co.kr/upload/board/201921514759[1].hwp), 2022-2023년 Spotify시장 분석 그래프]
-  
-  </div>
+
 
   현재 수많은 사람들이 음악 스트리밍 플랫폼을 통해 인터넷에 연결된 장치에서 음악을 듣고, 저장 및 다운로드 없이 해당 음악에 대한 액세스 권한을 얻을 수 있다. 때문에 다양한 음악에 대한 접근이 쉬워졌으며, 이러한 플랫폼들은 인터넷의 보급과 함께 급속도로 성장하고 있다. 전 세계 음악 스트리밍 매출액은 '12년 7.3억 달러에서 '17년 66억 달러로 연평균 55.2% 증가하였다. [<sup>[1]</sup>](https://test.hri.co.kr/upload/board/201921514759[1].hwp) 
   
   기존의 음악 스트리밍 플랫폼은 단순히 음악을 스트리밍하기 위한 플랫폼이었지만, 지금은 다양한 기능들을 제공하며 기본적으로 댓글과 평점과 같이 청취자가 실제로 앨범에 대해 피드백을 줄 수 있는 환경이 있다. 그리고 스트리밍 플랫폼 외에도 AllMusic, Pitchfork, RYM 등과 같은 음악 관련 웹사이트나 앱에서도 앨범에 대한 리뷰와 평점을 남길 수 있고 이러한 서비스들이 많아지고 있다. 음악 플랫폼의 시장이 확장되고 음악 리뷰 데이터를 얻을 수 있는 환경이 많아지는 현재, 다양한 음악 플랫폼에 많은 음악 리뷰 데이터들이 쌓이고 있다. 
 
   대표적인 음악 스트리밍 플랫폼으로 Spotify가 있는데, Spotify에만 2023년 3월 31일 기준으로 5억 1,500만 명이 오디오 스트리밍 서비스를 이용하고 있고 Spotify는 거의 모든 연령대 뿐만 아니라 선진국과 개발도상국 시장 모두에서 이용자 수에 대한 큰 성장을 보였다. 이러한 성장의 대부분은 무료 광고 지원 버전의 Spotify 서비스를 사용하는 사람들을 기반으로 한다. 프리미엄 구독은 전 분기 대비 2%, 전년 대비 15% 증가하여 2억 5백만에서 2억 1천만으로 전체 성장 속도를 따라가지 못했다. 그럼에도 불구하고 프리미엄 가입자는 Spotify가 투자자 지침에서 지적한 것보다 300만 명 더 증가했다. [<sup>[2]</sup>](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html)   
+
+
+<div align=center><img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/85ce4a6e-d94e-45db-a2eb-05d64dd82311" width="580">
+ 
+  [자료: [국제음반산업협회(IFPI)](https://test.hri.co.kr/upload/board/201921514759[1].hwp), 2022-2023년 Spotify시장 분석 그래프]
+  
+</div>
 
  Net Operating Loss 선 그래프 (순 영업 손실):
 전반적으로 Spotify는 해당 분기에 1억 5,600만 유로(1억 7,200만 달러)의 순 영업 손실을 기록했다. 이는 2022년 1분기에 본 600만 유로(660만 달러) 손실보다 훨씬 많은 금액이지만, 스포티파이가 지난 분기에 2억 7000만 유로(2억 9700만 달러) 손실을 낸 것보다 개선된 것이다. [<sup>[2]</sup>](https://www.engadget.com/spotify-reaches-more-than-half-a-billion-users-for-the-first-time-142818686.html)
