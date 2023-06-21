@@ -209,10 +209,11 @@ Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 �
 <div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/936e66f7-d9c9-4101-b87a-15626699ea34" width="450">
  
   [자료: accuracy 결과창]
-
-  
    
   </div>
+
+분석 데이터 전체에 적용한 모델의 accuracy는 0.76%가 나왔다.
+  
 
 ## ⚒️개발환경⚒️
 
