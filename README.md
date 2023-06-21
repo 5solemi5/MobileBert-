@@ -62,7 +62,13 @@
  
 ## 1.2 문제정의
 
+<div align=center>
+
 ![ai](https://github.com/5solemi5/sentiment_analysis/assets/104000117/3eee0ccc-1c2c-483d-9345-767b5d5b3c76)
+
+[[자료: cyanite.ai 기사]](https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/)
+
+</div>
  
   이미 Spotify, Apple Music, Vibe 등의 플랫폼에서 사용자가 들은 음악에 대한 정보, 재생 횟수, 스킵 여부 등의 데이터들을 이용한 AI 서비스가 배포되고 있는 상황이다.[<sup>[4]</sup>](https://cyanite.ai/2021/09/02/how-do-ai-music-recommendation-systems-work/) 이처럼 음악 리뷰 데이터도 AI 기술을 통해 유의미하게 이용될 수 있다. 
   
