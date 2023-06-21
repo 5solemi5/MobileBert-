@@ -19,10 +19,11 @@
 ## 1.1 음악 플랫폼 시장
 
  ![c](https://github.com/5solemi5/sentiment_analysis/assets/104000117/d5310985-abcf-4d17-b0ee-a27c74fe5985)
+ ![KakaoTalk_20230621_105756684](https://github.com/5solemi5/sentiment_analysis/assets/104000117/750655f9-18b1-4bda-b451-80b7d04d473b)
  
  <div align=center>
   
-[[자료: RYM사이트 배너]](https://rateyourmusic.com/)
+[[자료: RYM사이트]](https://rateyourmusic.com/)
   
  </div>
 
