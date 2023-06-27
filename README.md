@@ -163,7 +163,7 @@ Rating이 4이상인 리뷰를 1(긍정), 3이하인 리뷰를 0(부정)으로 �
 
 <div align=center> <img src = "https://github.com/5solemi5/sentiment_analysis/assets/104000117/2d860b8d-d3d1-4b25-986d-f2aeaaabe5b2" width="850">
  
-  [자료: 분석 데이터_Review의 개수와 Rating 관계분석 그래프]
+  [자료: 분석 데이터_Review의 문장길이와 Rating 관계분석 그래프]
 
    </div>
 
